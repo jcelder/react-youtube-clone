@@ -1,25 +1,26 @@
-# ReduxSimpleStarter
+# React Youtube Clone
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+This is a simple Youtube Clone built with React. It was built as part of Stephen Grider's Modern React with Redux Udemy course. Interested in learning Modern React and Redux? If so I highly recommend his course [here](https://www.udemy.com/react-redux/).
 
-### Getting Started
+## Getting Started
 
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
+#### Clone and Install the Project
+Run the following commands:
 ```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
+git clone https://github.com/jcelder/react-youtube-clone.git
+cd react-youtube-clone
+npm install
 ```
+#### Get a Youtube API Key
+- Visit the [Google API Console](https://console.developers.google.com) and obtain a Youtube Data API v3 Key
+- Copy the .env template to .env by running the following command
+  - `cp .env.template .env`
+- Add your API key to the `.env` file
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+#### To run the project
+`npm start`
+Visit `localhost:8080`
+Enjoy!
 
-```
-> npm install
-> npm start
-```
+## Acknowledgements
+A big thanks to Stephen Grider's ReduxSimpleStarter for being the basis for this application.
